@@ -1,12 +1,12 @@
 'use strict';
 
-const SUPPORT_EMAIL = 'support@email.com';
-const NOREPLY_EMAIL = 'no-reply@email.com';
-const DOMAIN = 'trade.multicoins.org';
+const SUPPORT_EMAIL = 'AbacusBitsupport@email.com';
+const NOREPLY_EMAIL = 'no-reply-AbacusBit@email.com';
+const DOMAIN = 'abacusbit.io';
 
-const MAILER_NAME = 'OpenTrade Mailer';
-const START_MESSAGE = 'OpenTrade started!';
-const OPENTRADE = "OpenTrade";
+const MAILER_NAME = 'AbacusBit Mailer';
+const START_MESSAGE = 'AbacusBit started!';
+const OPENTRADE = "AbacusBit";
 
 exports.ALLOW_EMAIL_CHANGING = true;
 
@@ -19,21 +19,21 @@ exports.share = {
    emailVerificationEnabled: 'enabled', //'disabled' // !!! WARNING !!! DANGER !!! DO NOT CHANGE IT IN PRODUCTION !!! FOR TESTS ONLY !!!
    pinVerificationEnabled: 'enabled', //'disabled'
    
-   TRADE_COMISSION: 0.001,
-   DUST_VOLUME: 0.000001,
+   TRADE_COMISSION: 0.0025,
+   DUST_VOLUME: 0.00000001,
    
-   my_portSSL: 40443,
+   my_portSSL: 443,
    
-   TRADE_MAIN_COIN: "Marycoin",
-   TRADE_MAIN_COIN_TICKER: "MC",
-   TRADE_DEFAULT_PAIR: "Litecoin"
+   TRADE_MAIN_COIN: "Bitcoin",
+   TRADE_MAIN_COIN_TICKER: "BTC",
+   TRADE_DEFAULT_PAIR: "Bulwark"
 };
 
 exports.my_port = process.env.PORT || 40080;
 
 exports.SESSION_TIME = 3600*1000; //one hour
 
-exports.recaptcha_pub_key = "6LeX5SQUAAAAAKTieM68Sz4MECO6kJXsSR7_sGP1";
+exports.recaptcha_pub_key = "6Lfws34UAAAAAMP3douVbNVC9PBKoR0HwXDr5Tiy";
 const MAX_IP_CONNECTIONS = 100;
 
 const MAX_USER_WITHDRAW = 100; //Percentage from trade deposit
