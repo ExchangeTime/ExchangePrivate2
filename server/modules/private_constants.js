@@ -1,12 +1,12 @@
 'use strict';
 
-exports.recaptcha_priv_key = 'YOUR_GOOGLE_RECAPTCHA_PRIVATE_KEY';
-exports.password_private_suffix = 'LONG_RANDOM_STRING1';
+exports.recaptcha_priv_key = '6Lfws34UAAAAAOYD3tkURBCZd3gGzFtaN_iYtM1B';
+exports.password_private_suffix = '6Lfws34UAAAAAOYD3tkURBCZd3gGzFtaN_iYtM1B222';
 exports.SSL_KEY = '../ssl_certificates/privkey.pem'; //change to your ssl certificates private key
 exports.SSL_CERT = '../ssl_certificates/fullchain.pem'; //change to your ssl certificates fullchain
 
 exports.walletspassphrase = {
-    'MC' : 'LONG_RANDOM_STRING2',
-    'BTC' : 'LONG_RANDOM_STRING3',
-    'DOGE' : 'LONG_RANDOM_STRING4'
+    'MC' : 'BtcWalletuserDip222',
+    'BTC' : 'BtcWalletuserDip223',
+    'DOGE' : 'BtcWalletuserDip224'
 };
